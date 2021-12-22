@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-size: 14px;
+  }
+  
+  .cat{
+    color: #252f7b;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .cat:hover{
+    color: #f95031;
+  }
+  
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .acc1{
+    color: #252f7b;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 20px;
+  }
+  
+  .acc1:hover{
+    color: #f95031; 
+  }
+
+/* BODY */
+
+body{
+    background-color: #eff0f5;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    background-color: #eff0f5;
+    padding-bottom: 10px;
+}
+
+.box{
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: white;
+    border: none;
+    padding: 20px;
+}
+
+.edit{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.save{
+    display: flex;
+    justify-content: center;
+    float: right;
+    background-color: #28a745;
+    border-radius: 10%;
+    width: 90px;
+    height: 30px;
+    padding-top: 5px;  
+    
+}
+
+.left{
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 340%;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;   
+}
+
+.name{
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+/* media */
+
+@media  screen and (max-width: 1275px) {
+    .navbar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .navy{
+        padding-bottom: 1.5rem;
+    }
+    
+    .account{
+        padding: 0;
+        padding-bottom: 0.9rem;
+    }
+
+    .box{
+        margin-bottom: 150px;
+    }
+    }
